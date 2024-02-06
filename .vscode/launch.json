@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SimpleShooter (Debug)",
+            "request": "launch",
+            "preLaunchTask": "SimpleShooter Win64 Debug Build",
+            "program": "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "E:\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "E:\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "SimpleShooter (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "SimpleShooter Win64 DebugGame Build",
+            "program": "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "E:\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "E:\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "SimpleShooter (Development)",
+            "request": "launch",
+            "preLaunchTask": "SimpleShooter Win64 Development Build",
+            "program": "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "E:\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "E:\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "SimpleShooter (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "SimpleShooter Win64 Shipping Build",
+            "program": "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "E:\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "E:\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "SimpleShooter (Test)",
+            "request": "launch",
+            "preLaunchTask": "SimpleShooter Win64 Test Build",
+            "program": "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "E:\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "E:\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "SimpleShooterEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "SimpleShooterEditor Win64 Debug Build",
+            "program": "E:\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\SimpleShooter.uproject"
+            ],
+            "cwd": "E:\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "E:\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "SimpleShooterEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "SimpleShooterEditor Win64 DebugGame Build",
+            "program": "E:\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\SimpleShooter.uproject"
+            ],
+            "cwd": "E:\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "E:\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "SimpleShooterEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "SimpleShooterEditor Win64 Development Build",
+            "program": "E:\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\SimpleShooter.uproject"
+            ],
+            "cwd": "E:\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "E:\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "E:\\Epic Games\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\SimpleShooter.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "E:\\Epic Games\\UE_4.27"
+        }
+    ]
+}

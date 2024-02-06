@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "SimpleShooterEditor Editor Win64 Development (SimpleShooter)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\.vscode\\compileCommands_SimpleShooter.json",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Users\\Darius\\Documents\\Unreal Projects\\SimpleShooter\\.vscode\\compileCommands_Default.json",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe"
+        }
+    ],
+    "version": 4
+}
